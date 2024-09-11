@@ -1,6 +1,5 @@
 #Part 1 
-userInput = input("Enter your grade percentage: ")
-num = float(userInput)
+num = float(input("Enter your grade percentage: \n"))
 if num >= 90:
     print("You have an A")
 elif num >= 80:
@@ -12,15 +11,13 @@ elif num >= 60:
 else:
     print("You have a F")
 #Part 2
-userInput = input("Enter an Integer: ")
-num = int(userInput)
+num = int(input("Enter an Integer: \n"))
 if (num % 2 == 0):
     print("Your number is even")
 else:
     print("Your number is odd")
 #Part 3
-userInput = input("Enter your Age: ")
-num = int(userInput)
+num = int(input("Enter your Age: \n"))
 if num >= 65:
     print("You are a senior")
 elif num >= 20:
