@@ -21,5 +21,5 @@ while running:
             count += 1
             print(str(count)+". "+contact+": "+contacts.get(contact))
     else:
-        running == False
+        running = False
     print()
